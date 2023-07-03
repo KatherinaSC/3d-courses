@@ -1,0 +1,157 @@
+@media (max-width: 992px) {
+
+  .block__title {
+    font-size: 50px;
+  }
+
+  .text__block {
+    padding-bottom: 135px;
+  }
+
+  .inform__img {
+    background-image: url('../img/main-img-690px.png');
+  }
+
+  .benefit__item {
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .teachers__item {
+    margin-bottom: var(--margin-30);
+  }
+
+  .section__container {
+    padding-bottom: 50px;
+  }
+
+
+  .card__text {
+    padding-bottom: 120px;
+  }
+
+  .card__btn {
+    left: 35px;
+    padding: 20.5px 53px;
+  }
+
+  .teachers__item picture {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .teachers__item img {
+    border-radius: 28px 28px 0px 0px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: var(--margin-30);
+  }
+
+}
+
+@media (max-width: 677px) {
+  .inform__img {
+    display: none;
+  }
+
+  .benefit__block {
+    align-items: flex-start;
+  }
+
+  .text__block {
+    padding-top: 77px;
+  }
+}
+
+@media (max-width: 575px) {
+  .benefit__img {
+    display: none;
+  }
+
+  .benefit__list {
+    gap: var(--margin-30);
+  }
+
+  .benefit__item {
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .teachers__item img {
+    border-radius: 40px 40px 0px 0px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .block__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .block__descr {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+  .btn {
+    padding: 20px 53px;
+    font-size: 16px;
+  }
+
+  .teachers__item img {
+    border-radius: 55px 55px 0px 0px;
+  }
+
+  .text__block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .benefit__title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .benefit__item {
+    gap: 30px;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+  }
+
+  .courses__title {
+    font-size: 20px;
+  }
+
+  .card__btn {
+    padding: 20.5px 48px;
+  }
+}
+
+@media (max-width: 475px) {
+  .nav {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
